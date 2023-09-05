@@ -172,7 +172,7 @@ namespace ACT00_REVISION
                 do
                 {
                     Console.WriteLine(question);
-                } while (!double.TryParse(Console.ReadLine(), out color)
+                } while (!double.TryParse(Console.ReadLine(), out color));
 
                 if (color == 1 || color == 2 || color == 3)
                 {

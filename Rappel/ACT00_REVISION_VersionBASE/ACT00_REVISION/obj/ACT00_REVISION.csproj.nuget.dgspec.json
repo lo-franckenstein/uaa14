@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj": {}
+    "C:\\Users\\220153\\Downloads\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj": {}
   },
   "projects": {
-    "H:\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj": {
+    "C:\\Users\\220153\\Downloads\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
+        "projectUniqueName": "C:\\Users\\220153\\Downloads\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
         "projectName": "ACT00_REVISION",
-        "projectPath": "H:\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
+        "projectPath": "C:\\Users\\220153\\Downloads\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
         "packagesPath": "C:\\Users\\220153\\.nuget\\packages\\",
-        "outputPath": "H:\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\obj\\",
+        "outputPath": "C:\\Users\\220153\\Downloads\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
