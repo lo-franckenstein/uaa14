@@ -1,0 +1,14 @@
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\ChienPOO.GeneratedMSBuildEditorConfig.editorconfig
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\ChienPOO.AssemblyInfoInputs.cache
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\ChienPOO.AssemblyInfo.cs
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\ChienPOO.csproj.CoreCompileInputs.cache
+H:\uaa14\Poo\ChienPOO\bin\Debug\net6.0\ChienPOO.exe
+H:\uaa14\Poo\ChienPOO\bin\Debug\net6.0\ChienPOO.deps.json
+H:\uaa14\Poo\ChienPOO\bin\Debug\net6.0\ChienPOO.runtimeconfig.json
+H:\uaa14\Poo\ChienPOO\bin\Debug\net6.0\ChienPOO.dll
+H:\uaa14\Poo\ChienPOO\bin\Debug\net6.0\ChienPOO.pdb
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\ChienPOO.dll
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\refint\ChienPOO.dll
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\ChienPOO.pdb
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\ChienPOO.genruntimeconfig.cache
+H:\uaa14\Poo\ChienPOO\obj\Debug\net6.0\ref\ChienPOO.dll
