@@ -1,0 +1,14 @@
+﻿<Window x:Class="Act0XAMLLouis_Ex5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Act0XAMLLouis_Ex5"
+        mc:Ignorable="d"
+        Title="Exercice 5" Height="250" Width="600">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="hello" VerticalAlignment="Top" Height="235" Width="300" TextAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="Center" HorizontalAlignment="Left" Margin="416,96,0,0" VerticalAlignment="Top" Width="50" Height="50" />
+
+    </Grid>
+</Window>

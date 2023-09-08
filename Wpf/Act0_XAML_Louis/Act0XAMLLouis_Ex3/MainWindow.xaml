@@ -1,0 +1,15 @@
+﻿<Window x:Class="Act0XAMLLouis_Ex3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Act0XAMLLouis_Ex3"
+        mc:Ignorable="d"
+        Title="Exercice 3" Height="450" Width="800">
+    <Grid>
+        <Button Content="B1" HorizontalAlignment="Left" Margin="320,0,0,0" VerticalAlignment="Center" Height="40" Width="40"/>
+        <Button Content="B2" HorizontalAlignment="Left" Margin="360,0,0,0" VerticalAlignment="Center" Height="40" Width="40"/>
+        <Button Content="B3" HorizontalAlignment="Left" Margin="400,0,0,0" VerticalAlignment="Center" Height="40" Width="40"/>
+        <Button Content="B4" HorizontalAlignment="Left" Margin="440,0,0,0" VerticalAlignment="Center" Height="40" Width="40"/>
+    </Grid>
+</Window>

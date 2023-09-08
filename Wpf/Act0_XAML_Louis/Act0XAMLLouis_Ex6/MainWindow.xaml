@@ -1,0 +1,21 @@
+﻿<Window x:Class="Act0XAMLLouis_Ex6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Act0XAMLLouis_Ex6"
+        mc:Ignorable="d"
+        Title="Exercice 6" Height="450" Width="800">
+    <Grid>
+        <ListBox HorizontalAlignment="Center" VerticalContentAlignment="Center" Margin="0,164,0,163">
+            <ListBoxItem Foreground="#33FF68">Mahyass Music</ListBoxItem>
+            <ListBoxItem Foreground="#FFC133">L0diren Music Official</ListBoxItem>
+            <ListBoxItem Foreground="#33FF93">Amonlake Music_off</ListBoxItem>
+            <ListBoxItem Foreground="#15746B">Aneki Rap Content</ListBoxItem>
+            <ListBoxItem Foreground="#9271BD">Phonk Official Jyaso</ListBoxItem>
+            <ListBoxItem Foreground="#E01AC5">GamingGSpydi Arcade Music</ListBoxItem>
+            <ListBoxItem Foreground="#DDACAC">killbillnvlog Classical Drill</ListBoxItem>
+        </ListBox>
+
+    </Grid>
+</Window>

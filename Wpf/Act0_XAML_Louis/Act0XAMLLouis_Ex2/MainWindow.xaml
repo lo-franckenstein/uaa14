@@ -1,0 +1,16 @@
+﻿<Window x:Class="Act0XAMLLouis_Ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Act0XAMLLouis_Ex2"
+        mc:Ignorable="d"
+        Title="Exercice 2" Height="450" Width="800">
+    <Grid>
+        <Button Content="UpLe" HorizontalAlignment="Left" Margin="400,177,0,0" VerticalAlignment="Top" Height="40" Width="40"/>
+        <Button Content="UpRi" HorizontalAlignment="Left" Margin="360,177,0,0" VerticalAlignment="Top" Height="40" Width="40"/>
+        <Button Content="DoLe" HorizontalAlignment="Left" Margin="400,217,0,0" VerticalAlignment="Top" Height="40" Width="40"/>
+        <Button Content="DoRi" HorizontalAlignment="Left" Margin="360,217,0,0" VerticalAlignment="Top" Height="40" Width="40"/>
+
+    </Grid>
+</Window>
