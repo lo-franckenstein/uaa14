@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Exercice 4" Height="600" Width="250">
     <Grid>
-        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="hello" VerticalAlignment="Top" Width="34" Margin="0,274,0,0"/>
-        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="hello" VerticalAlignment="Top" Width="34" Margin="0,291,0,0"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="kjdgnogijd^rigj^dirjgôdjigôijdrogijdrpiugpiruhgkhjgbldkjuhrbglkjidbrgkjdbdgrgdrlgkjbdljbrglkjdhbrgljhdbrgigj^dirjgôdjigôijdrogijdrpiugpiruhgkhjgbldkjuhrbglkjidbrgkjdbdgrgdrlgkjbdljbrglkjdhbrgljhdbrgigj^dirjgôdjigôijdrogijdrpiugpiruhgkhjgbldkjuhrbglkjidbrgkjdbdgrgdrlgkjbdljbrglkjdhbrgljhdbrgljhbdllllllllllllllllllllllllllllllllllllllllllllllldlrgjbdlkjhrbgljdhbrgljdhbrlblrhjbgljdhb ljgbdrl jbdrlb gdljbrhgljdhbrl gdljrhb gljbdhrgljhb dljghb dljbrhg ljdhbrlgjhb dljbg ljbdrh gljbdh rlb gdljb gldjpidhgpiudrhguhdirghidghpidurghpoidrogjidroigjdorigjpdorgjipdorjigpdojigpdorjigpodjirgpodjirgpodrjigpdorjigpodjigpodrjigpodjirogijdporgjdrjigpodjirgpodrjpgojidrpogjdporgjidporgj" VerticalAlignment="Top" Height="292"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1,292,0,0" TextWrapping="Wrap" Text="kjnrdgjinxwkjirngpxwjidrgnpijkhjgbldkjuhrbglkjidbrgkjdbrlgkjbdljbrglkjdhbrgljhdbrgljhbdllllllllllllllllllllllllllllllllllllllllllllllldlrgjbdlkjhrbgljdhbrgljdhbrlblrhjbgljdhigj^dirjgôdjigôijdrogijdrpiugpiruhgkhjgbldkjuhrbglkjidbrgkjdbdgrgdrlgkjbdljbrglkjdhbrgljhdbrgigj^dirjgôdjigôijdrogijdrpiugpiruhgkhjgbldkjuhrbglkjidbrgkjdbdgrgdrlgkjbdljbrglkjdhbrgljhdbrgigj^dirjgôdjigôijdrogijdrpiugpiruhgkhjgbldkjuhrbglkjidbrgkjdbdgrgdrlgkjbdljbrglkjdhbrgljhdbrgb ljgbdrl jbdrlb gdljbrhgljdhbrl gdljrhb gljbdhrgljhb dljghb dljbrhg ljdhbrlgjhb dljbg ljbdrh gljbdh rlb gdljb gldjwnprgijnuxdprignjuxpdrnjgpxidnjrgpxjindrpgkixnjdprkignjxpkdrnjgpkxdnjprkgjnxdpkrgnjpxdknjrgpkxdnjrpgknjxdpkrgnjkxdjnrgpkjxdnprkgjnxdkrjgnxpkdjnrgpxdjnrpgkjnxdprkgnjxdpkrgnjpxkdjrngpkxdjnpgjxnd" VerticalAlignment="Top" Height="282"/>
 
     </Grid>
 </Window>
