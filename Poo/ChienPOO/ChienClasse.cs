@@ -52,5 +52,66 @@ namespace ChienPOO
             return chaîne;
         }
 
+        public uint Age        {
+            get { return _age; }
+            set { _age = value; }
+        }
+
+        public bool Vaccin
+        {
+            get { return _enOrdreDeVaccin; }
+            set { _enOrdreDeVaccin = value; }
+        }
+
+        public bool Puce
+        {
+            get { return _puce; }
+            set { _puce = value; }
+        }
+
+        public string Genre
+        {
+            get { return _genre; }
+            set { _genre = value; }
+        }
+
+        public bool Sterilise
+        {
+            get { return _sterelise; }
+            set { _sterelise = value; }
+        }
+
+        public bool Sourd
+        {
+            get { return _sourd; }
+            set { _sourd = value; }
+        }
+
+        public bool Aggressif
+        {
+            get { return _aggressif; }
+            set { _aggressif = value; }
+        }
+
+        public bool Aveugle
+        {
+            get { return _aveugle; }
+            set { _aveugle = value; }
+        }
+        public bool ManqueDeMembres
+        {
+            get { return _manqueDeMembre; }
+            set { _manqueDeMembre = value; }
+        }
+        public bool Dresse
+        {
+            get { return _dresse; }
+            set { _dresse = value; }
+        }
+
+
+
+
+
     }
 }
