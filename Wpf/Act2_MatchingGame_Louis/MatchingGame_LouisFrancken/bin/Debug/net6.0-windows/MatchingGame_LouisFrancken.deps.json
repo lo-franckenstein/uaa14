@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MatchingGame_LouisFrancken/1.0.0": {
+        "runtime": {
+          "MatchingGame_LouisFrancken.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatchingGame_LouisFrancken/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
