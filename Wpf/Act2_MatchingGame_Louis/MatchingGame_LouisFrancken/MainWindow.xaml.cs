@@ -37,7 +37,9 @@ namespace MatchingGame_LouisFrancken
         {
 
             InitializeComponent();
+            SetUpGame();
             timer.Interval = TimeSpan.FromSeconds(.1);
+            timer.Tick += new EventHandler(Timer_Tick);
 
         }
         private void SetUpGame()
@@ -60,6 +62,8 @@ namespace MatchingGame_LouisFrancken
             "🦉","🦉",
             "🐀","🐀",
             };
+
+
             foreach (TextBlock textBlock in grdMain.Children.OfType<TextBlock>())
             {
                 if (textBlock.Name != "txtTemps")
@@ -69,17 +73,7 @@ namespace MatchingGame_LouisFrancken
                     textBlock.Text = nextEmoji;
                     animalEmoji.RemoveAt(index);
                 }
-            }
-
-            foreach (TextBlock textBlock in grdMain.Children.OfType<TextBlock>())
-            {
-
-                index = nbAlea.Next(animalEmoji.Count); // index est de type int
-                                                        // nbalea est un objet de type Random()
-                nextEmoji = animalEmoji[index]; // nextEmoji est de type string
-                textBlock.Text = nextEmoji;
-                animalEmoji.RemoveAt(index); // on retire un animal de la liste pour ne pas l’attribuer à nouveau.
-            }
+            };
 
 
 
