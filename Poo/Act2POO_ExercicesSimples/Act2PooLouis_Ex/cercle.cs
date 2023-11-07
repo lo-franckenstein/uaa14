@@ -6,14 +6,5 @@ using System.Threading.Tasks;
 
 namespace Act2PooLouis_Ex
 {
-    class cercle
-    {
-        private double _rayon;
-    }
 
-
-    class cercleClasse (double rayon)
-    {
-        _rayon = rayon;
-    }
 }

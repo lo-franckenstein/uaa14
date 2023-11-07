@@ -1,0 +1,14 @@
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\bin\Debug\net6.0\Act3PooLouis_Ex.exe
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\bin\Debug\net6.0\Act3PooLouis_Ex.deps.json
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\bin\Debug\net6.0\Act3PooLouis_Ex.runtimeconfig.json
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\bin\Debug\net6.0\Act3PooLouis_Ex.dll
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\bin\Debug\net6.0\Act3PooLouis_Ex.pdb
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\Act3PooLouis_Ex.GeneratedMSBuildEditorConfig.editorconfig
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\Act3PooLouis_Ex.AssemblyInfoInputs.cache
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\Act3PooLouis_Ex.AssemblyInfo.cs
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\Act3PooLouis_Ex.csproj.CoreCompileInputs.cache
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\Act3PooLouis_Ex.dll
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\refint\Act3PooLouis_Ex.dll
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\Act3PooLouis_Ex.pdb
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\Act3PooLouis_Ex.genruntimeconfig.cache
+H:\uaa14\Poo\Act3POO_Elephants\Act3PooLouis_Ex\obj\Debug\net6.0\ref\Act3PooLouis_Ex.dll
