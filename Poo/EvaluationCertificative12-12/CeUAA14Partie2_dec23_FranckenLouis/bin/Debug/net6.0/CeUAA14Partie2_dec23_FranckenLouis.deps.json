@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CeUAA14Partie2_dec23_FranckenLouis/1.0.0": {
+        "runtime": {
+          "CeUAA14Partie2_dec23_FranckenLouis.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CeUAA14Partie2_dec23_FranckenLouis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

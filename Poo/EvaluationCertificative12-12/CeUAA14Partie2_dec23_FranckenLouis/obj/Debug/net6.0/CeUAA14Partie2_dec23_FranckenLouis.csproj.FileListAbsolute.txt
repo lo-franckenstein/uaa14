@@ -1,0 +1,14 @@
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.GeneratedMSBuildEditorConfig.editorconfig
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.AssemblyInfoInputs.cache
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.AssemblyInfo.cs
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.csproj.CoreCompileInputs.cache
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\bin\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.exe
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\bin\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.deps.json
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\bin\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.runtimeconfig.json
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\bin\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.dll
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\bin\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.pdb
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.dll
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\refint\CeUAA14Partie2_dec23_FranckenLouis.dll
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.pdb
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\CeUAA14Partie2_dec23_FranckenLouis.genruntimeconfig.cache
+H:\uaa14\Poo\EvaluationCertificative12-12\CeUAA14Partie2_dec23_FranckenLouis\obj\Debug\net6.0\ref\CeUAA14Partie2_dec23_FranckenLouis.dll
