@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\22015\\.nuget\\packages\\": {}
+    "C:\\Users\\220153\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\22015\\OneDrive\\Documents\\GitHub\\uaa14\\Wpf\\Act3_Events_Louis\\Act3_CaulatriceABC_Louis\\Act3_CaulatriceABC_Louis.csproj",
+      "projectUniqueName": "H:\\uaa14\\Wpf\\Act3_Events_Louis\\Act3_CaulatriceABC_Louis\\Act3_CaulatriceABC_Louis.csproj",
       "projectName": "Act3_CaulatriceABC_Louis",
-      "projectPath": "C:\\Users\\22015\\OneDrive\\Documents\\GitHub\\uaa14\\Wpf\\Act3_Events_Louis\\Act3_CaulatriceABC_Louis\\Act3_CaulatriceABC_Louis.csproj",
-      "packagesPath": "C:\\Users\\22015\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\22015\\OneDrive\\Documents\\GitHub\\uaa14\\Wpf\\Act3_Events_Louis\\Act3_CaulatriceABC_Louis\\obj\\",
+      "projectPath": "H:\\uaa14\\Wpf\\Act3_Events_Louis\\Act3_CaulatriceABC_Louis\\Act3_CaulatriceABC_Louis.csproj",
+      "packagesPath": "C:\\Users\\220153\\.nuget\\packages\\",
+      "outputPath": "H:\\uaa14\\Wpf\\Act3_Events_Louis\\Act3_CaulatriceABC_Louis\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\22015\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\220153\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
