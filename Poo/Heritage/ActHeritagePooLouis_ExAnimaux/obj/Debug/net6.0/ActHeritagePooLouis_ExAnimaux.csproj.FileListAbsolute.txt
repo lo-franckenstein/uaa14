@@ -1,0 +1,14 @@
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\bin\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.exe
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\bin\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.deps.json
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\bin\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.runtimeconfig.json
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\bin\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.dll
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\bin\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.pdb
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.GeneratedMSBuildEditorConfig.editorconfig
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.AssemblyInfoInputs.cache
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.AssemblyInfo.cs
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.csproj.CoreCompileInputs.cache
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.dll
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\refint\ActHeritagePooLouis_ExAnimaux.dll
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.pdb
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\ActHeritagePooLouis_ExAnimaux.genruntimeconfig.cache
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExAnimaux\obj\Debug\net6.0\ref\ActHeritagePooLouis_ExAnimaux.dll
