@@ -27,15 +27,15 @@ namespace ActHeritagePooLouis_ExForme
             return info;
         }
 
-		public int CalculSurface(int cotePrincipale, int coteSecondaire)
+		public override int CalculerSurface()
 		{
-			int surface = cotePrincipale * coteSecondaire;
+			int surface = CotePrincipale * CoteSecondaire;
 			return surface;
 		}
 
-		public int CalculPerimetre(int cotePrincipale, int coteSecondaire)
+		public override int CalculerPerimetre()
 		{
-			int perimetre = (cotePrincipale * 2) + (coteSecondaire * 2);
+			int perimetre = (CotePrincipale * 2) + (CoteSecondaire * 2);
 			return perimetre;
 		}
     }

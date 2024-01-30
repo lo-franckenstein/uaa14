@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ActHeritagePooLouis_ExForme
 {
-    class Forme
+    abstract class Forme
     {
 
         protected string _couleur;
@@ -36,6 +36,9 @@ namespace ActHeritagePooLouis_ExForme
             string info = "  [+] Couleur de la forme: " + _couleur + "\n  [+] Mesure du côté principale: " + _cotePrincipale;
             return info;
         }
+
+        public abstract int CalculerSurface();
+        public abstract int CalculerPerimetre();
 
 
 

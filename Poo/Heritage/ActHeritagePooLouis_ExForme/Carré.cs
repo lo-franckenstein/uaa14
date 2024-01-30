@@ -8,17 +8,17 @@ namespace ActHeritagePooLouis_ExForme
 {
     class Carré : Forme
     {
-        public Carré(string couleur, int cotePrincipale) :base(couleur, cotePrincipale);
+        public Carré(string couleur, int cotePrincipale) : base(couleur, cotePrincipale) {}
 
-        public int CalculerSurface(int cotePrincipale)
+        public override int CalculerSurface()
         {
-            int surface = cotePrincipale ^ 2;
+            int surface = CotePrincipale ^ 2;
             return surface;
         }
 
-        public int CalculerPerimetre(int cotePrincipale)
+        public override int CalculerPerimetre()
         {
-            int perimetre = cotePrincipale * 4;
+            int perimetre = CotePrincipale * 4;
             return perimetre;
         }
     }

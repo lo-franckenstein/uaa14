@@ -1,0 +1,14 @@
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\ActHeritagePooLouis_ExForme.GeneratedMSBuildEditorConfig.editorconfig
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\ActHeritagePooLouis_ExForme.AssemblyInfoInputs.cache
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\ActHeritagePooLouis_ExForme.AssemblyInfo.cs
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\ActHeritagePooLouis_ExForme.csproj.CoreCompileInputs.cache
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\bin\Debug\net6.0\ActHeritagePooLouis_ExForme.exe
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\bin\Debug\net6.0\ActHeritagePooLouis_ExForme.deps.json
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\bin\Debug\net6.0\ActHeritagePooLouis_ExForme.runtimeconfig.json
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\bin\Debug\net6.0\ActHeritagePooLouis_ExForme.dll
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\bin\Debug\net6.0\ActHeritagePooLouis_ExForme.pdb
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\ActHeritagePooLouis_ExForme.dll
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\refint\ActHeritagePooLouis_ExForme.dll
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\ActHeritagePooLouis_ExForme.pdb
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\ActHeritagePooLouis_ExForme.genruntimeconfig.cache
+H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\obj\Debug\net6.0\ref\ActHeritagePooLouis_ExForme.dll
