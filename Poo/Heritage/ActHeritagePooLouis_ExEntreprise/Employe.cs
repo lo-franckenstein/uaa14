@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ActHeritagePooLouis_ExEntreprise
 {
-    class Employe
+    abstract class Employe
     {
         protected int _matricule;
         protected string _nom;

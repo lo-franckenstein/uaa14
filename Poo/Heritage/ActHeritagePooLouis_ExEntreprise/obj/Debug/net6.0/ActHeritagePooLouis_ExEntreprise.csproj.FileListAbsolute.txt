@@ -1,0 +1,15 @@
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\bin\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.exe
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\bin\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.deps.json
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\bin\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.runtimeconfig.json
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\bin\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.dll
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\bin\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.pdb
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.AssemblyInfoInputs.cache
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.AssemblyInfo.cs
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.csproj.CoreCompileInputs.cache
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.sourcelink.json
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.dll
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\refint\ActHeritagePooLouis_ExEntreprise.dll
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.pdb
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ActHeritagePooLouis_ExEntreprise.genruntimeconfig.cache
+C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExEntreprise\obj\Debug\net6.0\ref\ActHeritagePooLouis_ExEntreprise.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ActHeritagePooLouis_ExEntreprise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81134ac7f2418d5de2c62ab3953dcb5ca350c7f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ActHeritagePooLouis_ExEntreprise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ActHeritagePooLouis_ExEntreprise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

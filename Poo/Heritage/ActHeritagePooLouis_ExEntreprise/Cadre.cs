@@ -17,9 +17,9 @@ namespace ActHeritagePooLouis_ExEntreprise
 			set { _indice = value; }
 		}
 
-        Cadre(int matricule, string nom, string prenom, DateTime dateNaissance, int salaire, int indice) : base(matricule, nom, prenom, dateNaissance, salaire)
+        public Cadre(int matricule, string nom, string prenom, DateTime dateNaissance, int salaire, int indice) : base(matricule, nom, prenom, dateNaissance, salaire)
         {
-            indice = _indice;
+            _indice = indice;
         }
 
         public override int CalculSalaire()
@@ -47,7 +47,7 @@ namespace ActHeritagePooLouis_ExEntreprise
 
         public override string AfficherCaracteristiques()
         {
-            string info = "   Carte de cadre de " + _prenom + " " + _nom + "\n      [Nom] " + _nom + "\n      [Prénom] " + _prenom + "\n      [Date de Naissance] " + _dateNaissance + "\n      [Salaire] " + _salaire + "\n      [Indice de salaire] " + _indice;
+            string info = "   Carte de cadre de " + _prenom + " " + _nom + "\n      [Matricule] " + _matricule + "\n      [Nom] " + _nom + "\n      [Prénom] " + _prenom + "\n      [Date de Naissance] " + _dateNaissance + "\n      [Salaire] " + _salaire + "euros\n      [Indice de salaire] " + _indice;
             return info;
         }
 

@@ -16,7 +16,7 @@ namespace ActHeritagePooLouis_ExEntreprise
 			get { return _dateEntre; }
 		}
 
-		Ouvrier(int matricule, string nom, string prenom, DateTime dateNaissance, int salaire, DateTime dateEntre) : base (matricule, nom, prenom, dateNaissance, salaire)
+		public Ouvrier(int matricule, string nom, string prenom, DateTime dateNaissance, int salaire, DateTime dateEntre) : base (matricule, nom, prenom, dateNaissance, salaire)
 		{
 			dateEntre = _dateEntre;
 		}
@@ -40,7 +40,7 @@ namespace ActHeritagePooLouis_ExEntreprise
 
         public override string AfficherCaracteristiques()
         {
-            string info = "   Carte d'ouvrier de " + _prenom + " " + _nom + "\n      [Nom] " + _nom + "\n      [Prénom] " + _prenom + "\n      [Date de Naissance] " + _dateNaissance + "\n      [Salaire] " + _salaire + "\n      [Date d'arrivée dans notre entreprise] " + _dateEntre;
+            string info = "   Carte d'ouvrier de " + _prenom + " " + _nom + "\n      [Matricule] " + _matricule + "\n      [Nom] " + _nom + "\n      [Prénom] " + _prenom + "\n      [Date de Naissance] " + _dateNaissance + "\n      [Salaire] " + _salaire + "euros\n      [Date d'arrivée dans notre entreprise] " + _dateEntre;
             return info;
         }
 

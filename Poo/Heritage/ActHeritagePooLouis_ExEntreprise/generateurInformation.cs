@@ -52,14 +52,14 @@ namespace ActHeritagePooLouis_ExEntreprise
             return randomDateTime;
         }
 
-        public int ca()
+        public int GetRandomCA()
         {
             Random random = new Random();
             int randomCa = random.Next(500000, 908456515);
             return randomCa;
         }
 
-        public int pourcentage()
+        public int GetRandomPourcentage()
         {
             Random random = new Random();
             int randomPourcentage = random.Next(1, 99);

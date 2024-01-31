@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ActHeritagePooLouis_ExForme
-build_property.ProjectDir = H:\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\
+build_property.ProjectDir = C:\Users\22015\OneDrive\Documents\uaa14\Poo\Heritage\ActHeritagePooLouis_ExForme\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

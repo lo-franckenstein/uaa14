@@ -24,10 +24,10 @@ namespace ActHeritagePooLouis_ExEntreprise
             set { _pourcentage = value;}
         }
 
-        Directeur(int matricule, string nom, string prenom, DateTime dateNaissance, int salaire, int ca, int pourcentage) : base(matricule, nom, prenom, dateNaissance, salaire)
+        public Directeur(int matricule, string nom, string prenom, DateTime dateNaissance, int salaire, int ca, int pourcentage) : base(matricule, nom, prenom, dateNaissance, salaire)
         {
-            ca = _ca;
-            pourcentage = _pourcentage;
+            _ca = ca;
+            _pourcentage = pourcentage;
         }
 
         public override int CalculSalaire()
@@ -39,7 +39,7 @@ namespace ActHeritagePooLouis_ExEntreprise
 
         public override string AfficherCaracteristiques()
         {
-            string info = "   Carte de directeur de " + _prenom + " " + _nom + "\n      [Nom] " + _nom + "\n      [Prénom] " + _prenom + "\n      [Date de Naissance] " + _dateNaissance + "\n      [Salaire] " + _salaire + "\n   [Pourcentage du CA] " + _pourcentage + "\n   [Chiffre d'affaire] " + _ca;
+            string info = "   Carte de directeur de " + _prenom + " " + _nom + "\n      [Matricule] " + _matricule + "\n      [Nom] " + _nom + "\n      [Prénom] " + _prenom + "\n      [Date de Naissance] " + _dateNaissance + "\n      [Salaire] " + _salaire + "euros\n      [Pourcentage du CA] " + _pourcentage + "pourcent\n      [Chiffre d'affaire] " + _ca + "euros";
             return info;
         }
 
