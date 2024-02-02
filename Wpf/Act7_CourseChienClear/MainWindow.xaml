@@ -1,0 +1,42 @@
+﻿<Window x:Class="Act7_CourseChienClear.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Act7_CourseChienClear"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="850">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="135*"/>
+            <ColumnDefinition Width="593*"/>
+            <ColumnDefinition Width="122*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="271"/>
+            <RowDefinition Height="16"/>
+            <RowDefinition Height="413"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row = "2" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="203"/>
+                <RowDefinition Height="131"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="399"/>
+                <ColumnDefinition Width="101"/>
+                <ColumnDefinition Width="298"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+
+
+        <Canvas Grid.Row="0" Grid.ColumnSpan="3">
+            <Image Margin="10,10,10,10" Source="/Asset/racetrack.png" Stretch="Fill"/>
+        </Canvas>
+
+
+        <TextBlock  Grid.Row="1" FontSize="14" Grid.ColumnSpan="3">Salle des paris</TextBlock>
+    </Grid>
+</Window>
