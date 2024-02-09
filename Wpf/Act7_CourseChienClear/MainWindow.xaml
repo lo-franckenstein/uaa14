@@ -6,19 +6,20 @@
         xmlns:local="clr-namespace:Act7_CourseChienClear"
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="850">
-    <Grid>
+    <Grid x:Name="plateau">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="135*"/>
             <ColumnDefinition Width="593*"/>
             <ColumnDefinition Width="122*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="271"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="267.627"/>
             <RowDefinition Height="16"/>
             <RowDefinition Height="413"/>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row = "2" Grid.ColumnSpan="3">
+        <Grid Grid.Row = "3" Grid.ColumnSpan="3">
             <Grid.RowDefinitions>
                 <RowDefinition Height="203"/>
                 <RowDefinition Height="131"/>
@@ -32,11 +33,17 @@
 
 
 
-        <Canvas Grid.Row="0" Grid.ColumnSpan="3">
+        <Canvas x:Name="piste" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="2">
             <Image Margin="10,10,10,10" Source="/Asset/racetrack.png" Stretch="Fill"/>
         </Canvas>
 
 
-        <TextBlock  Grid.Row="1" FontSize="14" Grid.ColumnSpan="3">Salle des paris</TextBlock>
+        <TextBlock  Grid.Row="2" FontSize="14" Grid.ColumnSpan="3">Salle des paris</TextBlock>
+
+
+        <TextBlock x:Name="EtatPariJoe"></TextBlock>
+        <TextBlock x:Name="EtatPariBob"></TextBlock>
+        <TextBlock x:Name="EtatPariBill"></TextBlock>
+
     </Grid>
 </Window>

@@ -27,15 +27,16 @@ namespace Act7_CourseChienClear
             InitializeComponent();
             Chien[] chiensCourreurs = new Chien[4];
             SetupDog(ref chiensCourreurs);
+            Parieur[] joueursPari = new Parieur[3];
+            SetupPari(ref joueursPari);
         }
 
 
         public void SetupDog(ref Chien[] chiensCourreurs)
         {
-
                 int[] coordonees = new int[2];
-                coordonees[0] = 23;
-                coordonnees[1] = 
+                coordonees[0] = 65;
+                coordonees[1] = 18;
 
             for (int i = 0; i < 4; i++)
             {
@@ -47,9 +48,45 @@ namespace Act7_CourseChienClear
                 imageDog.Source = imageChien;
                 imageDog.Stretch = System.Windows.Media.Stretch.None;
 
+                int numeroplace = i + 1;
+                chiensCourreurs[i] = new Chien(593, numeroplace, imageDog, coordonees, false);
 
-                chiensCourreurs[i] = new Chien[593, (i + 1), imageDog, 59, false];
+                Canvas.SetLeft(imageDog, coordonees[0]);
+                Canvas.SetTop(imageDog, coordonees[1]);
+                piste.Children.Add(imageDog);
+
+
+                coordonees[1] += 70;
             }
         }
+
+        public void SetupPari(ref Parieur[] joueursPari)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                string prenom;
+                TextBlock setupEtatPari;
+                switch (i)
+                {
+                    case 0:
+                        prenom = "Joe";
+                        setupEtatPari = EtatPariJoe;
+                        break;
+                    case 1:
+                        prenom = "Bob";
+                        setupEtatPari = EtatPariBob
+                        break;
+                    case 2:
+                        prenom = "Bill";
+                        setupEtatPari = EtatPariBill;
+                        break;
+                    default:
+                        break;
+                }
+                
+                joueursPari[i] = new Chien(prenom, , 50, "n'a pas encore parié");
+            }
+        }
+
     }
 }

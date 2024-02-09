@@ -7,7 +7,7 @@ using System.Windows.Controls;
 
 namespace Act7_CourseChien.POO
 {
-    class Chien
+    public class Chien
     {
         protected int _longueurPiste;
         protected int _numChien;
