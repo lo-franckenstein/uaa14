@@ -11,9 +11,11 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace Act7_CourseChienClear
 {
@@ -27,8 +29,11 @@ namespace Act7_CourseChienClear
             InitializeComponent();
             Chien[] chiensCourreurs = new Chien[4];
             SetupDog(ref chiensCourreurs);
-            Parieur[] joueursPari = new Parieur[3];
-            SetupPari(ref joueursPari);
+            // Parieur[] joueursPari = new Parieur[3];
+            // SetupPari(ref joueursPari);
+
+            Random alea = new Random();
+            StartRaceAsync(chiensCourreurs, alea);
         }
 
 
@@ -60,33 +65,84 @@ namespace Act7_CourseChienClear
             }
         }
 
-        public void SetupPari(ref Parieur[] joueursPari)
+
+
+
+        public async Task StartRaceAsync(Chien[] chiensCourreurs, Random alea)
         {
-            for (int i = 0; i < 3; i++)
+            bool raceEnd = false;
+            int caseChien = 0;
+            int[] tableauChienTemporaire;
+
+            do
             {
-                string prenom;
-                TextBlock setupEtatPari;
-                switch (i)
+                raceEnd = true;
+
+                for (int i = 0; i < 4; i++)
                 {
-                    case 0:
-                        prenom = "Joe";
-                        setupEtatPari = EtatPariJoe;
-                        break;
-                    case 1:
-                        prenom = "Bob";
-                        setupEtatPari = EtatPariBob
-                        break;
-                    case 2:
-                        prenom = "Bill";
-                        setupEtatPari = EtatPariBill;
-                        break;
-                    default:
-                        break;
+                    tableauChienTemporaire = chiensCourreurs[i].PositionCourante;
+                    caseChien = alea.Next(0, 100);
+
+                    int variableForIf = tableauChienTemporaire[0] + caseChien;
+
+                    if (variableForIf < 728) // SI UN CHIEN N'A PAS FINI LA COURSE
+                    {
+                        tableauChienTemporaire[0] = tableauChienTemporaire[0] + caseChien;
+                        chiensCourreurs[i].PositionCourante = tableauChienTemporaire;
+
+                        DoubleAnimation animationX = new DoubleAnimation();
+                        animationX.To = tableauChienTemporaire[0];
+                        animationX.Duration = TimeSpan.FromSeconds(0.5);
+
+                        // Attendre la fin de l'animation
+                        chiensCourreurs[i].ImageChien.BeginAnimation(Canvas.LeftProperty, animationX);
+
+                        raceEnd = false; // Met à jour raceEnd puisque la course n'est pas terminée
+                    }
+                    else // SI UN CHIEN A FINI LA COURSE
+                    {
+                        tableauChienTemporaire[0] = 728;
+                        chiensCourreurs[i].PositionCourante = tableauChienTemporaire;
+                        chiensCourreurs[i].Gagne = true;
+
+                        DoubleAnimation animationX = new DoubleAnimation();
+                        animationX.To = tableauChienTemporaire[0];
+                        animationX.Duration = TimeSpan.FromSeconds(0.5);
+
+                        // Attendre la fin de l'animation
+                        chiensCourreurs[i].ImageChien.BeginAnimation(Canvas.LeftProperty, animationX);
+                    }
+
+                    await Task.Delay(500); // Attendre avant de déplacer le prochain chien
                 }
-                
-                joueursPari[i] = new Chien(prenom, , 50, "n'a pas encore parié");
-            }
+            } while (!raceEnd);
+
+            // Une fois la course terminée, afficher les MessageBox
+            string messageChienGagnant = "Le Chien " + VerificationChienGagnant(chiensCourreurs) + " a gagné la course !";
+            string messageParieurGagnant = " est/sont les gagnants du pari de cette course !";
+            MessageBox.Show(messageChienGagnant);
+            MessageBox.Show(messageParieurGagnant);
         }
+
+
+        public int VerificationChienGagnant(Chien[] chiensCourreurs)
+        {
+            int chienGagnant = 0;
+            if (chiensCourreurs[0].Gagne == true)
+            {
+                chienGagnant = 1;
+            } else if (chiensCourreurs[1].Gagne == true)
+            {
+                chienGagnant = 2;
+            } else if (chiensCourreurs[2].Gagne == true)
+            {
+                chienGagnant = 3;
+            } else { 
+                chienGagnant = 4;
+            }
+            return chienGagnant;
+        }
+
 
     }
 }
