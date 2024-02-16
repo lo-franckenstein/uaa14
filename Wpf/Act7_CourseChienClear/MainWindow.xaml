@@ -33,6 +33,8 @@
 
 
 
+        <Label Content="Pari minimum: 5 écus" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Row="3"/>
+        <Label Content="Paris" HorizontalAlignment="Left" Margin="359,10,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Row="3" Grid.ColumnSpan="2"/>
         <Canvas x:Name="piste" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="2">
             <Image Margin="10,10,10,10" Source="/Asset/racetrack.png" Stretch="Fill"/>
         </Canvas>

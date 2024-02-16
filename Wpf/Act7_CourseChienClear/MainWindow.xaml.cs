@@ -73,12 +73,12 @@ namespace Act7_CourseChienClear
             bool raceEnd = false;
             int caseChien = 0;
             int[] tableauChienTemporaire;
-
+            int i;
             do
             {
-                raceEnd = true;
 
-                for (int i = 0; i < 4; i++)
+                i = 0;
+                while(raceEnd == false && i < 4)
                 {
                     tableauChienTemporaire = chiensCourreurs[i].PositionCourante;
                     caseChien = alea.Next(0, 100);
@@ -97,7 +97,7 @@ namespace Act7_CourseChienClear
                         // Attendre la fin de l'animation
                         chiensCourreurs[i].ImageChien.BeginAnimation(Canvas.LeftProperty, animationX);
 
-                        raceEnd = false; // Met à jour raceEnd puisque la course n'est pas terminée
+                        
                     }
                     else // SI UN CHIEN A FINI LA COURSE
                     {
@@ -111,12 +111,14 @@ namespace Act7_CourseChienClear
 
                         // Attendre la fin de l'animation
                         chiensCourreurs[i].ImageChien.BeginAnimation(Canvas.LeftProperty, animationX);
-                    }
 
-                    await Task.Delay(500); // Attendre avant de déplacer le prochain chien
+                        raceEnd = true; // Met à jour raceEnd puisque la course est terminée
+
+                    }
+                    i++;
+                    await Task.Delay(100);// Attendre avant de déplacer le prochain chien
                 }
             } while (!raceEnd);
-
             // Une fois la course terminée, afficher les MessageBox
             string messageChienGagnant = "Le Chien " + VerificationChienGagnant(chiensCourreurs) + " a gagné la course !";
             string messageParieurGagnant = " est/sont les gagnants du pari de cette course !";
@@ -131,13 +133,17 @@ namespace Act7_CourseChienClear
             if (chiensCourreurs[0].Gagne == true)
             {
                 chienGagnant = 1;
-            } else if (chiensCourreurs[1].Gagne == true)
+            }
+            else if (chiensCourreurs[1].Gagne == true)
             {
                 chienGagnant = 2;
-            } else if (chiensCourreurs[2].Gagne == true)
+            }
+            else if (chiensCourreurs[2].Gagne == true)
             {
                 chienGagnant = 3;
-            } else { 
+            }
+            else
+            {
                 chienGagnant = 4;
             }
             return chienGagnant;
