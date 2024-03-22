@@ -7,7 +7,7 @@ using System.Windows.Controls;
 
 namespace Act7_CourseChien.POO
 {
-    class Parieur
+    public class Parieur
     {
 
         protected string _nom;
@@ -18,12 +18,6 @@ namespace Act7_CourseChien.POO
         public string Nom
         {
             get { return _nom; }
-        }
-
-        public Pari MonPari
-        {
-            get { return _monPari; }
-            set { _monPari = value; }
         }
 
         public int Cash
@@ -38,10 +32,9 @@ namespace Act7_CourseChien.POO
             set { _textBlockEtatPari = value; }
         }
 
-        public Parieur (string nom, Pari monPari, int cash, TextBlock textBlockEtatPari)
+        public Parieur (string nom,  int cash, TextBlock textBlockEtatPari)
         {
             _nom = nom;
-            _monPari = monPari;
             _cash = cash;
             _textBlockEtatPari = textBlockEtatPari;
         }

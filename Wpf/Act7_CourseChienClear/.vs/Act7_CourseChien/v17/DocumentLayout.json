@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|c:\\users\\louis\\onedrive\\documents\\uaa14\\wpf\\act7_coursechienclear\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|c:\\users\\louis\\onedrive\\documents\\uaa14\\wpf\\act7_coursechienclear\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|c:\\users\\louis\\onedrive\\documents\\uaa14\\wpf\\act7_coursechienclear\\poo\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|solutionrelative:poo\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|c:\\users\\louis\\onedrive\\documents\\uaa14\\wpf\\act7_coursechienclear\\poo\\pari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|solutionrelative:poo\\pari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|c:\\users\\louis\\onedrive\\documents\\uaa14\\wpf\\act7_coursechienclear\\poo\\parieur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B731F6-3167-47DD-8355-6C02436EEF7D}|Act7_CourseChien.csproj|solutionrelative:poo\\parieur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T12:14:51.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T12:14:51.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chien.cs",
+              "DocumentMoniker": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\Poo\\Chien.cs",
+              "RelativeDocumentMoniker": "Poo\\Chien.cs",
+              "ToolTip": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\Poo\\Chien.cs",
+              "RelativeToolTip": "Poo\\Chien.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T12:14:51.116Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "1ae31346-7cc9-441a-a3ca-d7565c61dd67",
+        "Display": 0,
+        "X": -826,
+        "Y": 182,
+        "Width": 1546,
+        "Height": 782,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parieur.cs",
+              "DocumentMoniker": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\Poo\\Parieur.cs",
+              "RelativeDocumentMoniker": "Poo\\Parieur.cs",
+              "ToolTip": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\Poo\\Parieur.cs",
+              "RelativeToolTip": "Poo\\Parieur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T12:14:51.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e8070061-e45e-4442-a1f5-f1c6f82ae4d5",
+        "Display": 0,
+        "X": -5,
+        "Y": 87,
+        "Width": 1546,
+        "Height": 782,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pari.cs",
+              "DocumentMoniker": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\Poo\\Pari.cs",
+              "RelativeDocumentMoniker": "Poo\\Pari.cs",
+              "ToolTip": "C:\\Users\\louis\\OneDrive\\Documents\\uaa14\\Wpf\\Act7_CourseChienClear\\Poo\\Pari.cs",
+              "RelativeToolTip": "Poo\\Pari.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T12:19:42.978Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Act7_CourseChien.POO
 {
-    class Pari
+    public class Pari
     {
 
         protected int _montant;

@@ -26,14 +26,45 @@ namespace Act7_CourseChienClear
     {
         public MainWindow()
         {
+            bool raceFinish = false;
             InitializeComponent();
             Chien[] chiensCourreurs = new Chien[4];
             SetupDog(ref chiensCourreurs);
-            // Parieur[] joueursPari = new Parieur[3];
-            // SetupPari(ref joueursPari);
+            Parieur[] joueursPari = new Parieur[3];
+            SetupPari(ref joueursPari);
+            // 1509 case car le plateau possède 503 pixels, et à chaque tour, un joueur avance au moins un pixel, donc 503*3=1509
+            Pari[] pariList = new Pari[1509]; 
+
+
 
             Random alea = new Random();
             StartRaceAsync(chiensCourreurs, alea);
+        }
+
+
+        public void SetupPari(ref Parieur[] joueursPari)
+        {
+            Thickness myThickness = new Thickness();
+
+
+            TextBlock joeTextPossession = new TextBlock();
+            joeTextPossession.VerticalAlignment = 0;
+            joeTextPossession.HorizontalAlignment = HorizontalAlignment.Center;
+            Grid2.SetRow(joeTextPossession, 0);
+            Grid2.SetColumn(joeTextPossession, 0);
+            joueursPari[0] = new Parieur("Joe", 50, joeTextPossession);
+
+            TextBlock bobTextPossession = new TextBlock();
+            myThickness.Left = 70;
+            myThickness.Top = 343;
+            bobTextPossession.Margin = myThickness;
+            joueursPari[1] = new Parieur("Bob", 50, bobTextPossession);
+
+            TextBlock billTextPossession = new TextBlock();
+            myThickness.Left = 80;
+            myThickness.Top = 343;
+            billTextPossession.Margin = myThickness;
+            joueursPari[2] = new Parieur("Bill", 50, billTextPossession);
         }
 
 
@@ -142,7 +173,6 @@ namespace Act7_CourseChienClear
             }
             return chienGagnant;
         }
-
 
     }
 }
