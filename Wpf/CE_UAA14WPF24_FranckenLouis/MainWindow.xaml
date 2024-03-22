@@ -1,0 +1,49 @@
+﻿<Window x:Class="CE_UAA14WPF24_FranckenLouis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CE_UAA14WPF24_FranckenLouis"
+        mc:Ignorable="d"
+        Title="CE_UAA14WPF24_FranckenLouis" Height="1000" Width="1200">
+    <Grid Background="#EBD9B4" x:Name="grdMain">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="400"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition x:Name="secondRowMain" Height="8*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Foreground="#638889" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="34" Grid.Row="0" Grid.ColumnSpan="2">VERIFIONS VOS CONNAISSANCES en WPF !</TextBlock>
+        <TextBlock x:Name="textUnderground" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="30" Grid.Row="2" Grid.ColumnSpan="2">Test WPF 6T 2024</TextBlock>
+        <Grid Background="#9DBC98" Grid.Row="1" Grid.Column="1" x:Name="SecondeGrille">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+
+            <Grid Grid.Row="1" Grid.Column="1"></Grid>
+            <TextBlock Grid.Row="0" FontSize="22" FontWeight="Bold">Paramétrage</TextBlock>
+            <TextBlock Grid.Row="1" FontSize="22" FontWeight="Bold">Disposition</TextBlock>
+            <RadioButton x:Name="buttonSolitaire" Grid.Row="2" FontSize="22" Content="Solitaire" FontWeight="Bold" Checked="buttonSolitaire_Checked"></RadioButton>
+            <RadioButton x:Name="buttonMarelle" Grid.Row="3" FontSize="22" Content="Marelle" FontWeight="Bold" Checked="buttonMarelle_Checked"></RadioButton>
+            <RadioButton x:Name="buttonBandeLaterale" IsChecked="True" Grid.Row="4" FontSize="22" Content="Bande Latérale" FontWeight="Bold" Checked="buttonBandeLaterale_Checked"></RadioButton>
+            <Button x:Name="buttonValidate" Grid.Row="8" FontSize="22" Width="400" Content="Valider" FontWeight="Bold" Click="buttonValidate_Click"></Button>
+            <TextBlock x:Name="textTaillePlateau" Grid.Row="5" FontSize="22" FontWeight="Bold">Taille du plateau</TextBlock>
+            <TextBox x:Name="inputLignes" Width="60" Grid.Row="6" TextChanged="inputLignes_TextChanged_1"></TextBox>
+            <TextBox x:Name="inputColonnes" Width="60" Grid.Row="7" TextChanged="inputColonnes_TextChanged_1"></TextBox>
+
+        </Grid>
+    </Grid>
+</Window>
