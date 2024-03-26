@@ -19,7 +19,7 @@
             <RowDefinition Height="413"/>
         </Grid.RowDefinitions>
 
-        <Grid x:Name="Grid2" Grid.Row = "3" Grid.ColumnSpan="3">
+        <Grid Grid.Row = "3" Grid.ColumnSpan="3">
             <Grid.RowDefinitions>
                 <RowDefinition Height="203"/>
                 <RowDefinition Height="131"/>

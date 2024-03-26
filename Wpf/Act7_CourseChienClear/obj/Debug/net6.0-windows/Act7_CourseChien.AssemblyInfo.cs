@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Act7_CourseChien")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+816102e626767eab05c57a6791a26a3e8eb84fe0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Act7_CourseChien")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Act7_CourseChien")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
