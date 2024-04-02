@@ -1,0 +1,15 @@
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\bin\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.exe.config
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\bin\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.exe
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\bin\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.pdb
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.csproj.AssemblyReference.cache
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\MainWindow.g.cs
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\App.g.cs
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis_MarkupCompile.cache
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis_MarkupCompile.lref
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\MainWindow.baml
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.g.resources
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.Properties.Resources.resources
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.csproj.GenerateResource.cache
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.csproj.CoreCompileInputs.cache
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.exe
+H:\uaa14\Wpf\CE_UAA14WPF24Rattrapage_FranckenLouis\obj\Debug\CE_UAA14WPF24Rattrapage_FranckenLouis.pdb
